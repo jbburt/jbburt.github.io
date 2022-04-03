@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Joshua Burt" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <script src="assets/js/main.js" defer></script>
     <title>Joshua Burt, PhD</title>
@@ -16,12 +17,16 @@
     <div class="wrapper">
 
         <header>
-            <a href="#" class="logo">
-                Joshua <span>Burt</span>, PhD
-            </a>
+            <div class="name">
+                <a href="#" class="logo">
+                    Joshua Burt
+                </a>
+                <div class="infinity" onclick="toggleDark(this)"></div>
+            </div>
+
             <nav>
                 <ul class="nav-list">
-                    <!-- <li><a href="#">Home</a></li> -->
+                    <li><a href="#home">Home</a></li>
                     <li><a href="#about"><span>About</span></a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#"><span>Contact</span></a></li>
@@ -34,6 +39,14 @@
         </header>
 
         <div class="hero"></div>
+
+        <section id="parallax">
+            <ul>
+                <li class="scroll" data-rate="2">com</li>
+                <li class="scroll rotate" data-rate="0.5">puta</li>
+                <li class="scroll" data-rate="-1">tion</li>
+            </ul>
+        </section>
 
         <section id="about" class="hero">
             <h3>About</h3>
@@ -53,7 +66,12 @@
                         patterns and neuroimaging features. This platform was designed to optimize the matching of
                         clinical populations to drug targets.</p>
                 </div>
-                <img src="/images/gemini-dot_logo.png" alt="Gemini Dot logo.">
+                <img src="/images/gemini-dot_logo.png" alt="Gemini-Dot logo.">
+                <!-- <a href="https://www.businesswire.com/news/home/20180806005396/en/BlackThorn-Therapeutics-Announces-Exclusive-Licensing-Agreement-and-Extension-of-Key-Collaboration-With-Yale-University"
+                    target="_blank">
+                    <img src="/images/gemini-dot_logo.png" alt="Gemini Dot logo.">
+                </a> -->
+
             </div>
 
             <div class="feature left">
@@ -63,6 +81,9 @@
                         Spatial Heterogeneity.</p>
                 </div>
                 <img src="/images/BrainSMASH2.png" alt="Brain SMASH logo.">
+                <!-- <a href="https://github.com/murraylab/brainsmash/" target="_blank">
+                    <img src="/images/BrainSMASH2.png" alt="Brain SMASH logo.">
+                </a> -->
             </div>
 
             <div class="feature">
