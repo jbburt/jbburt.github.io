@@ -28,3 +28,7 @@ window.addEventListener("scroll", function (e) {
     target[index].style.transform = transform;
   }
 });
+
+function sendEmail() {
+  document.location = "mailto:joshuaburtphd@gmail.com";
+}
